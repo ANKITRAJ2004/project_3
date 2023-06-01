@@ -1,0 +1,690 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+} 
+#main2{
+    width: 100vw;
+    /* height: 100%; */
+    position: relative;
+    overflow: hidden;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url(./boys2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: gilroy;
+    cursor: pointer;
+}
+span{
+    color: #f9004d;
+} 
+nav ul{
+    display: block;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+nav>i {
+    display: none;
+}
+.btn {
+    background-color: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    text-decoration: none;
+    right: 10px;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content {
+    position: absolute;
+    top: 6%;
+    left: 25%;
+    transform: translate(-50%);
+    line-height: 40px;
+}
+h1{
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-family: gilroy;
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+    color: #000;
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #859595;
+  top: 6px;
+  right: 6px;
+}
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+
+}
+.about img{
+    height: auto;
+    width: 430px;   
+}
+.about-text {
+    width: 550px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: gilroy;
+}
+.about-text h5{
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: gilroy;
+}
+.about-text{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px; 
+}
+button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+
+}
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: gilroy;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px; 
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-2{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-2:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101001;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: #f9004d;
+    bottom: 35px;
+    font-size: 14px;
+}
+
+@media (max-width:600px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .hero {
+        height: 70vh;
+        width: 100%;
+        /* background-color: black; */
+        background-image: url(./boys2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    nav>i{
+        display: block;
+        cursor: pointer;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: gilroy;
+        cursor: pointer;
+        top: 50px;
+    }
+    span{
+        color: #f9004d;
+    } 
+    nav ul{
+        display: none;
+        position: absolute;
+        width: 25%;
+        right: 5%;
+        top: 1%;
+        background-color: #11111181;
+    }
+    nav ul li a{
+        font-size: 2vw;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    nav i{
+        position: absolute;
+        font-size: 30px; 
+        top: 50px;
+        right: 20px;
+    }
+    
+    nav ul li a:hover{
+        color: #f9004d;
+        transition: .4s;
+    }
+    .btn {
+        background-color: #f9004d;
+        color: white;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: transform .4s;
+        text-decoration: none;
+        right: 10px;
+    
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    .content {
+        position: relative;
+        top: 50%;
+        left: 20%;
+        transform: translate(-50%);
+        line-height: 40px;
+    }
+    h1{
+        margin: 20px 0px 20px;
+        font-size: 75px;
+        font-family: gilroy;
+        position: absolute;
+        left: 150px;
+        white-space: nowrap;
+        top: -70px;
+    }
+    h3{
+        font-size: 25px;
+        margin-left: 200px;
+        white-space: nowrap;
+        top: 30px;
+        position: absolute;
+
+        
+    }
+    h4{
+        color: #fcfc;
+        letter-spacing: 2px;
+        font-size: 20px;
+        left: 220px;
+        position: absolute;
+        text-align: center;
+        top: -130px;
+        white-space: nowrap;
+    }
+    .newsletter form{
+        width: 380px;
+        max-width: 100%;
+        position: relative;
+        left: 130px;
+        top: 100px;
+    }
+    .newsletter form input:first-child{
+        display: inline-block;
+        width: 100%;
+        padding: 14px 130px 14px 15px;
+        border: 2px solid #f9004d;
+        outline: none;
+        border-radius: 30px;
+        color: #000;
+    }
+    .newsletter form input:last-child{
+      position: absolute;
+      display: inline-block;
+      outline: none;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 30px;
+      background-color: #f9004d;
+      color: white;
+      box-shadow: 0px 0px 5px #000, 0px 0px 15px #859595;
+      top: 6px;
+      right: 6px;
+    }
+    .about {
+        width: 100%;
+        padding: 100px 0px;
+        background-color: #191919;
+    
+    }
+    .about img{
+        height: 350px;
+        width:250px;  
+        position: absolute;
+        top: 650px;
+        left: 20vw; 
+    }
+    .about-text {
+        width: 550px;
+    }
+    .main {
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .about-text h2{
+        color: #fff;
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+        font-family: gilroy;
+    }
+    .about-text h5{
+        color: #fff;
+        letter-spacing: 10px;
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+        font-family: gilroy;
+    }
+    .about-text{
+        color: #fcfc;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 18px;
+        margin-top: 350px;
+    }
+    button {
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 13px 30px;
+        border-radius: 30px;
+        transition: .4s;
+        position: absolute;
+        top: 1450px;
+        left: 3%;
+    }
+    button:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    
+    }
+    .service{
+        background: #141414;
+        width: 100%;
+        padding: 100px 0px;
+    }
+    .title h2{
+        font-size: 60px;
+        width: 1130px;
+        margin: 30px auto;
+        font-family: gilroy;
+        right: -380px;
+        position: absolute;
+        top: 175%;
+    }
+    .box {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 00px; */
+        margin-left:6vw;
+    }
+    .card{
+        height: 365px;
+        width: 335px;
+        padding: 20px 35px;
+        background: #191919;
+        border-radius: 20px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .card i{
+        font-size: 50px; 
+        display: block;
+        text-align: center;
+        margin: 25px 0px;
+        color: #f9004d;
+    }
+    h5 {
+        color: white;
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    .para p{
+        color: #fcfc;
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 25px;
+    }
+    .card .button{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s;
+        bottom: 10px;
+        position: absolute;
+        left: 100px;
+    }
+    .card .button:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    }
+    .contact-me{
+        width: 100%;
+        height: 290px;
+        background: #191919;
+
+    }
+    .contact-me p{
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 25px;
+        left: 50px
+        position absolute;
+    }
+    .contact-me .button-2{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 9px 22px;
+        border-radius: 30px;
+        transition: .4s;
+    }
+    .contact-me .button-2:hover{
+        background-color: transparent;
+        border: 2px solid #f9004d;
+        cursor: pointer;
+    }
+    footer{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background: #101001;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer p:nth-child(1){
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+        font-weight: bold;
+        position: absolute;
+        top: 45px;
+    }
+    footer p:nth-child(2){
+        color: white;
+        font-size: 17px;
+        width: 300px;
+        top: 100px;
+        position: absolute;
+        text-align: center;
+        line-height: 26px;
+    }
+    .social{
+        display: flex;
+    }
+    .social a{
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f9004d;
+        border-radius: 50%;
+        margin: 22px 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .social a:hover{
+        transform: scale(1.3);
+        transition: .3s;
+    }
+    .end{
+        position: absolute;
+        color: #f9004d;
+        bottom: 35px;
+        font-size: 30px;
+        position: absolute;
+        top: 310px;
+        font-family: gilroy;
+    }
+}
